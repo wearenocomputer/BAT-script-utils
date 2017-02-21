@@ -1,4 +1,4 @@
-# BATStartCollection
+\# BATStartCollection
 
 //START NODE SERVICE <br />
 cd c:/ <br />
@@ -23,4 +23,8 @@ taskkill /im program.exe /f /t
 //MOUNT DRIVES <br />
 net use Z: /delete <br />
 net use Z: \\192.168.5.240\Public\camerasystem-data /u:username password /persistent:yes
+
+//DELTE HIDDEN FILES AND FOLDERS<br />
+cd C:\Users\Nocomputer\Desktop\Folder<br />
+del * /A:H /S /Q
 
