@@ -24,7 +24,7 @@ taskkill /im program.exe /f /t
 net use Z: /delete <br />
 net use Z: \\\192.168.5.240\Public\camerasystem-data /u:username password /persistent:yes
 
-//DELTE HIDDEN FILES AND FOLDERS<br />
+//DELETE HIDDEN FILES AND FOLDERS<br />
 cd C:\Users\Nocomputer\Desktop\Folder<br />
 del * /A:H /S /Q
 
