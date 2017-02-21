@@ -22,5 +22,5 @@ taskkill /im program.exe /f /t
 
 //MOUNT DRIVES <br />
 net use Z: /delete <br />
-net use Z:\\192.168.5.240\Public\camerasystem-data /u:username password /persistent:yes
+net use Z: \\192.168.5.240\Public\camerasystem-data /u:username password /persistent:yes
 
